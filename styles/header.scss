@@ -1,0 +1,21 @@
+// Header styles
+header {
+    h1 {
+        margin: 0;
+        padding: 15px 0;
+    }
+
+    nav {
+        .navbar {
+            background-color: #f8f9fa; // Light background for navbar
+
+            .nav-link {
+                color: #007bff;
+
+                &:hover {
+                    color: #0056b3;
+                }
+            }
+        }
+    }
+}

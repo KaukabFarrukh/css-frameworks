@@ -1,0 +1,46 @@
+// Importing fonts and other SCSS files
+@import "fonts";
+@import "header";
+
+// Body styles
+body {
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+// Main section styles
+main {
+    padding: 20px;
+
+    section {
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+
+        h2 {
+            color: #333;
+        }
+
+        p,
+        ul {
+            color: #555;
+        }
+    }
+}
+
+// Footer styles
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #343a40;
+
+    p {
+        margin: 0;
+    }
+}
